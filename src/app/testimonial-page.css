@@ -1,0 +1,140 @@
+/* Testimonial Page */
+
+.testimonial-page .page-header {
+  background-image: url(../assets/bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  position: relative;
+}
+.testimonial-page .page-header header {
+  padding: 10px 30px;
+  /* margin-bottom: 2rem; */
+}
+.testimonial-page .page-header header img {
+  width: 15rem;
+  height: max-content;
+}
+.testimonial-page .page-header .path {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 4rem;
+  width: 32rem;
+  height: auto;
+}
+
+.testimonial-page .hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: flex-start;
+  place-items: center;
+
+  /* outline: 3px solid red; */
+
+  height: 20rem;
+  /* padding: 0 3rem; */
+  /* padding-top: 2rem; */
+  /* padding-bottom: 8rem; */
+}
+.testimonial-page .hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+
+  /* outline: 2px solid rgb(0, 255, 42); */
+}
+.testimonial-page .hero-left .heading {
+  color: #ffffff;
+  /* text-align: right; */
+  /* font-family: Poppins; */
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+
+  max-width: 16rem;
+  text-align: center;
+}
+.testimonial-page .hero-left .heading span {
+  color: #fff847;
+}
+.testimonial-page .hero-right img {
+  width: 20rem;
+  height: auto;
+}
+
+.testimonial-page .page-body {
+  padding: 0 3rem;
+}
+
+.testimonial-page .page-body p {
+  color: #363636;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.testimonial-page .page-body p.highlight {
+  font-size: 1rem;
+}
+
+.testimonial-page .page-body .sub-heading {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: #676767;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.testimonial-page .page-body .sub-heading svg {
+  width: 1rem;
+  height: auto;
+}
+
+.testimonial-page .page-body .image-container {
+  margin-top: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+.testimonial-page .page-body .image-container img {
+  max-width: 100%;
+  width: auto;
+  height: 8rem;
+  object-fit: contain;
+  box-shadow: 0 2px 6px rgba(172, 172, 172, 0.4);
+  border-radius: 0.5rem;
+}
+
+.page-footer {
+  background: #1a385a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.4rem 0;
+
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.page .top-right-dots {
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+}
+.page .top-right-dots img {
+  width: 5rem;
+  height: 5rem;
+  opacity: 40%;
+}

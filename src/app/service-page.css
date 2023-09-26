@@ -1,0 +1,163 @@
+/* Service Page */
+
+.service-page .page-header {
+  background-image: url(../assets/bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  position: relative;
+}
+.service-page .page-header header {
+  padding: 10px 30px;
+  /* margin-bottom: 2rem; */
+}
+.service-page .page-header header img {
+  width: 15rem;
+  height: max-content;
+}
+.service-page .page-header .path {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 4rem;
+  width: 32rem;
+  height: auto;
+}
+
+.service-page .hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: flex-start;
+  place-items: center;
+
+  /* outline: 3px solid red; */
+
+  height: 20rem;
+  /* padding: 0 3rem; */
+  /* padding-top: 2rem; */
+  /* padding-bottom: 8rem; */
+}
+.service-page .hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+
+  /* outline: 2px solid rgb(0, 255, 42); */
+}
+.service-page .hero-left .heading {
+  color: #ffffff;
+  /* text-align: right; */
+  /* font-family: Poppins; */
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+
+  max-width: 16rem;
+  text-align: center;
+}
+.service-page .hero-left .heading span {
+  color: #fff847;
+}
+.service-page .hero-right img {
+  width: 20rem;
+  height: auto;
+}
+
+.service-page .page-body {
+  padding: 0 5rem 0 7rem;
+  position: relative;
+}
+.service-page .page-body .sub-heading {
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.service-page .page-body .sub-heading h3 {
+  color: #363636;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.service-page .page-body .sub-heading h3 span {
+  color: #e46f44;
+}
+.service-page .page-body .sub-heading svg {
+  width: 24px;
+  height: 24px;
+}
+
+.service-page .page-body .service-card {
+  margin-top: 1.5rem;
+  position: relative;
+
+  padding: 1rem 0.6rem 1rem 3rem;
+  border-radius: 0.5rem;
+  background: #ebf5f9;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.23);
+}
+.service-page .page-body .service-card h5 {
+  color: #363636;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.service-page .page-body .service-card p {
+  margin-top: 8px;
+
+  color: #363636;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.service-page .page-body .service-card span {
+  width: 50px;
+  aspect-ratio: 1/1;
+
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+}
+.service-page .page-body .service-card span svg {
+  width: 100%;
+  height: 100%;
+}
+
+.service-page .page-body .dashed-line {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  /* height: 100%; */
+
+  z-index: 1;
+}
+
+.page-footer {
+  background: #1a385a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.4rem 0;
+
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.page .top-right-dots {
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+}
+.page .top-right-dots img {
+  width: 5rem;
+  height: 5rem;
+  opacity: 40%;
+}
