@@ -15,6 +15,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>{children}</body>
+
+      <script src="html2pdf.bundle.min.js"></script>
     </html>
   )
 }

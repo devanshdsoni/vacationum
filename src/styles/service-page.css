@@ -1,26 +1,29 @@
 /* Service Page */
 
-.itinerary-page .page-header {
+.service-page .page-header {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center -50px;
+  position: relative;
 }
-.itinerary-page .page-header header {
+.service-page .page-header .logo-wrapper {
   padding: 10px 30px;
   /* margin-bottom: 2rem; */
 }
-.itinerary-page .page-header header img {
+.service-page .page-header .logo-wrapper img {
   width: 15rem;
   height: max-content;
 }
-.itinerary-page .page-header .path {
+.service-page .page-header .path {
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: -1.5rem;
+  left: 4rem;
+  width: 32rem;
+  height: auto;
 }
 
-.itinerary-page .hero {
+.service-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
@@ -33,7 +36,7 @@
   /* padding-top: 2rem; */
   /* padding-bottom: 8rem; */
 }
-.itinerary-page .hero-left {
+.service-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +44,7 @@
 
   /* outline: 2px solid rgb(0, 255, 42); */
 }
-.itinerary-page .hero-left .heading {
+.service-page .hero-left .heading {
   color: #ffffff;
   /* text-align: right; */
   /* font-family: Poppins; */
@@ -54,97 +57,81 @@
   max-width: 16rem;
   text-align: center;
 }
-.itinerary-page .hero-left .heading span {
+.service-page .hero-left .heading span {
   color: #fff847;
 }
-.itinerary-page .hero-right img {
+.service-page .hero-right img {
   width: 20rem;
   height: auto;
 }
 
-.itinerary-page .page-body {
-  padding: 0 3rem 0 5rem;
+.service-page .page-body {
+  padding: 0 3.5rem;
+  position: relative;
 }
-.itinerary-page .page-body .sub-heading {
+
+.service-page .page-body .sub-heading {
   margin-top: 1.5rem;
 
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.itinerary-page .page-body .sub-heading h3 {
+.service-page .page-body .sub-heading h3 {
   color: #363636;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-.itinerary-page .page-body .sub-heading h3 span {
+.service-page .page-body .sub-heading h3 span {
   color: #e46f44;
 }
-.itinerary-page .page-body .sub-heading svg {
+.service-page .page-body .sub-heading svg {
   width: 24px;
   height: 24px;
 }
 
-.itinerary-page .page-body .itinerary-day-description {
-  padding-bottom: 2rem;
-  /* padding-left: 3.5rem; */
+.service-page .page-body .service-card {
+  margin-top: 1.5rem;
   position: relative;
+
+  padding: 1rem 1rem 1rem 3rem;
+  border-radius: 0.5rem;
+  background: #ebf5f9;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.23);
 }
-.itinerary-page .page-body .itinerary-day-description h3 {
+.service-page .page-body .service-card h5 {
   color: #363636;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
 }
-.itinerary-page .page-body .itinerary-day-description p {
-  margin-top: 0.3rem;
+.service-page .page-body .service-card p {
+  margin-top: 8px;
 
   color: #363636;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
 }
-.itinerary-page .page-body .itinerary-day-description .image-wrapper {
-  overflow: hidden;
-  margin-top: 1rem;
-  height: 6rem;
-
-  max-width: 100%;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-.itinerary-page .page-body .itinerary-day-description .image-wrapper img {
-  height: 100%;
-  width: auto;
-  border-radius: 8px;
-}
-.itinerary-page .page-body .itinerary-day-description .day-number {
-  position: absolute;
-  top: -6px;
-  left: -3.2rem;
-  background-color: #e46f44;
-  width: 40px;
+.service-page .page-body .service-card span {
+  width: 50px;
   aspect-ratio: 1/1;
-  border-radius: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: #fff;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 600;
-
-  z-index: 2;
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
 }
-.itinerary-page .page-body .itinerary-day-description .dashed-line {
+.service-page .page-body .service-card span svg {
+  width: 100%;
+  height: 100%;
+}
+
+.service-page .page-body .side-dashed-line {
   position: absolute;
   top: 0;
-  left: -2rem;
+  left: 2rem;
   height: 100%;
 
   z-index: 1;

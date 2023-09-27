@@ -6,15 +6,15 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.home-page .page-header header {
+.home-page .page-header .logo-wrapper {
   padding: 20px 30px;
   /* margin-bottom: 2rem; */
 }
-.home-page .page-header header img {
+.home-page .page-header .logo-wrapper img {
   width: 15rem;
   height: max-content;
 }
-.home-page .page-header .path {
+.home-page .page-header .dashed-path {
   position: absolute;
   bottom: -3rem;
   left: 5.7rem;
@@ -36,12 +36,12 @@
   /* padding-bottom: 8rem; */
 }
 .home-page .hero-left {
+  padding-top: 1rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
-
-  /* outline: 2px solid rgb(0, 255, 42); */
 }
 .home-page .hero-left .heading {
   color: #ffffff;
@@ -104,9 +104,9 @@
 .home-page .page-body {
   padding: 0 5rem;
 }
-
 .home-page .page-body .sub-heading {
   margin-top: 2.5rem;
+  position: relative;
 
   display: flex;
   align-items: center;
@@ -123,9 +123,17 @@
 .home-page .page-body .sub-heading h3 span {
   color: #e46f44;
 }
-.home-page .page-body .sub-heading svg {
+.home-page .page-body .sub-heading .dashed-circle {
   width: 24px;
   height: 24px;
+}
+.home-page .page-body .sub-heading .bottom-dashed-line {
+  position: absolute;
+  height: 4.5rem;
+  width: auto;
+
+  top: 2rem;
+  left: 0.55rem;
 }
 
 /* Offers Section */
@@ -180,9 +188,10 @@
   width: 100%;
   height: 100%;
 }
+
 /* Contact Section */
 .home-page .page-body .contact-section {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 
   display: grid;
   gap: 3rem;

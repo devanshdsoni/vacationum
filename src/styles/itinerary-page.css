@@ -1,21 +1,22 @@
 /* Service Page */
 
-.service-page .page-header {
+.itinerary-page .page-header {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center -50px;
+
   position: relative;
 }
-.service-page .page-header header {
+.itinerary-page .page-header .logo-wrapper {
   padding: 10px 30px;
-  /* margin-bottom: 2rem; */
 }
-.service-page .page-header header img {
+.itinerary-page .page-header .logo-wrapper img {
   width: 15rem;
   height: max-content;
 }
-.service-page .page-header .path {
+
+.itinerary-page .page-header .path {
   position: absolute;
   bottom: -1.5rem;
   left: 4rem;
@@ -23,7 +24,7 @@
   height: auto;
 }
 
-.service-page .hero {
+.itinerary-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
@@ -36,7 +37,7 @@
   /* padding-top: 2rem; */
   /* padding-bottom: 8rem; */
 }
-.service-page .hero-left {
+.itinerary-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +45,7 @@
 
   /* outline: 2px solid rgb(0, 255, 42); */
 }
-.service-page .hero-left .heading {
+.itinerary-page .hero-left .heading {
   color: #ffffff;
   /* text-align: right; */
   /* font-family: Poppins; */
@@ -57,83 +58,73 @@
   max-width: 16rem;
   text-align: center;
 }
-.service-page .hero-left .heading span {
+.itinerary-page .hero-left .heading span {
   color: #fff847;
 }
-.service-page .hero-right img {
+.itinerary-page .hero-right img {
   width: 20rem;
   height: auto;
 }
 
-.service-page .page-body {
-  padding: 0 5rem 0 7rem;
+.itinerary-page .page-body {
+  padding: 0 3.2rem;
+}
+
+.itinerary-page .page-body .itinerary-day-description {
+  margin-top: 1.5rem;
   position: relative;
 }
-.service-page .page-body .sub-heading {
-  margin-top: 1.5rem;
+.itinerary-page .page-body .itinerary-day-description h3 {
+  color: #363636;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
 
   display: flex;
   align-items: center;
-  gap: 1rem;
-}
-.service-page .page-body .sub-heading h3 {
-  color: #363636;
-  font-size: 1.7rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.service-page .page-body .sub-heading h3 span {
-  color: #e46f44;
-}
-.service-page .page-body .sub-heading svg {
-  width: 24px;
-  height: 24px;
+  gap: 0.5rem;
 }
 
-.service-page .page-body .service-card {
-  margin-top: 1.5rem;
-  position: relative;
+.itinerary-page .page-body .itinerary-day-description h3 .day-number {
+  background-color: #e46f44;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
 
-  padding: 1rem 0.6rem 1rem 3rem;
-  border-radius: 0.5rem;
-  background: #ebf5f9;
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.23);
-}
-.service-page .page-body .service-card h5 {
-  color: #363636;
-  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 600;
+
+  z-index: 2;
 }
-.service-page .page-body .service-card p {
-  margin-top: 8px;
+.itinerary-page .page-body .itinerary-day-description p {
+  margin-top: 0.5rem;
 
   color: #363636;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
 }
-.service-page .page-body .service-card span {
-  width: 50px;
-  aspect-ratio: 1/1;
+.itinerary-page .page-body .itinerary-day-description .image-wrapper {
+  overflow: hidden;
+  margin-top: 1rem;
+  height: 6rem;
 
-  position: absolute;
-  top: -0.5rem;
-  left: -1rem;
+  max-width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.service-page .page-body .service-card span svg {
-  width: 100%;
+.itinerary-page .page-body .itinerary-day-description .image-wrapper img {
   height: 100%;
-}
-
-.service-page .page-body .dashed-line {
-  position: absolute;
-  top: 0;
-  left: 2rem;
-  /* height: 100%; */
-
-  z-index: 1;
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid #909090;
 }
 
 .page-footer {
