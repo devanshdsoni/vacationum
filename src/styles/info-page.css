@@ -8,7 +8,6 @@
 }
 .info-page .page-header .logo-wrapper {
   padding: 10px 30px;
-  /* margin-bottom: 2rem; */
 }
 .info-page .page-header .logo-wrapper img {
   width: 15rem;
@@ -43,8 +42,8 @@
   color: #fff847;
 }
 .info-page .hero-right img {
-  width: 20rem;
-  height: auto;
+  width: auto;
+  height: 14rem;
 }
 
 .info-page .page-body {
@@ -73,6 +72,14 @@
   font-size: 0.9rem;
   font-style: normal;
 }
+.info-page .page-body .section > img {
+  margin-top: 0.5rem;
+  max-height: 12rem;
+  width: auto;
+
+  border-radius: 8px;
+  border: 2px solid rgba(172, 172, 172, 0.4);
+}
 .info-page .page-body .section .section-dot {
   position: absolute;
   width: 20px;
@@ -84,7 +91,6 @@
   margin-top: 0.4rem;
   display: block;
   border: 1px solid rgba(130, 130, 130, 0.6);
-  /* border-radius: 4px; */
 }
 .info-page .page-body .section table tr {
   display: block;
@@ -126,6 +132,10 @@
   left: 0;
   width: 100%;
   padding: 0.4rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
   color: #fff;
   text-align: center;

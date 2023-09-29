@@ -9,7 +9,6 @@
 }
 .service-page .page-header .logo-wrapper {
   padding: 10px 30px;
-  /* margin-bottom: 2rem; */
 }
 .service-page .page-header .logo-wrapper img {
   width: 15rem;
@@ -29,25 +28,17 @@
   place-content: flex-start;
   place-items: center;
 
-  /* outline: 3px solid red; */
-
   height: 20rem;
-  /* padding: 0 3rem; */
-  /* padding-top: 2rem; */
-  /* padding-bottom: 8rem; */
 }
 .service-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
-
-  /* outline: 2px solid rgb(0, 255, 42); */
 }
 .service-page .hero-left .heading {
   color: #ffffff;
-  /* text-align: right; */
-  /* font-family: Poppins; */
+
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
@@ -144,6 +135,10 @@
   left: 0;
   width: 100%;
   padding: 0.4rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
   color: #fff;
   text-align: center;

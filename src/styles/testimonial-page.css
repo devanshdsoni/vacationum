@@ -4,12 +4,11 @@
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center -50px;
+  background-position: center -100px;
   position: relative;
 }
 .testimonial-page .page-header .logo-wrapper {
   padding: 10px 30px;
-  /* margin-bottom: 2rem; */
 }
 .testimonial-page .page-header .logo-wrapper img {
   width: 15rem;
@@ -22,7 +21,7 @@
   place-content: flex-start;
   place-items: center;
 
-  height: 20rem;
+  height: 16rem;
 }
 .testimonial-page .hero-left {
   display: flex;
@@ -45,7 +44,7 @@
   color: #fff847;
 }
 .testimonial-page .hero-right img {
-  width: 20rem;
+  width: 16rem;
   height: auto;
 }
 
@@ -97,6 +96,17 @@
   border: 1px solid rgba(172, 172, 172, 0.4);
   border-radius: 0.5rem;
 }
+.testimonial-page .page-body .certifications {
+  margin-top: 3rem;
+
+  display: flex;
+  gap: 1rem;
+}
+.testimonial-page .page-body .certifications img {
+  height: 5rem;
+  width: auto;
+  border-radius: 2px;
+}
 
 .page-footer {
   background: #1a385a;
@@ -105,6 +115,10 @@
   left: 0;
   width: 100%;
   padding: 0.4rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
   color: #fff;
   text-align: center;

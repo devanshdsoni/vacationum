@@ -3,18 +3,24 @@
 import Image from 'next/image'
 import html2pdf from 'html2pdf.js'
 
+// PNG
 import logo from '@/assets/logo.png'
-import DotsPng from '@/assets/dots.png'
-import WelcomeOnboardSvg from '@/assets/WelcomeOnboard.svg'
-import HomeHederDashedPath from '@/assets/image-about-path.svg'
+import qrCodePng from '@/assets/qr.png'
+import ArcPng from '@/assets/arc.png'
+import IataPng from '@/assets/iata.png'
 
-import OffersIllustrationPng from '@/assets/offers-illustration.png'
-import ContactIllustrationPng from '@/assets/contact-illustration.png'
-import ServicePageIllustration from '@/assets/service-page-hero-illustration.png'
+// Illustrations PNG
+import ServicePageIllustration from '@/assets/illustrations/service-page-hero-illustration.png'
+import InfoPageIllustration from '@/assets/illustrations/info-page-hero-illustration.png'
+import TestimonialPageIllustration from '@/assets/illustrations/testimonial-page-hero-illustration.png'
+import ItineraryPageIllustration from '@/assets/illustrations/itinerary-page-hero-illustration.png'
+import OffersIllustrationPng from '@/assets/illustrations/offers-illustration.png'
+import ContactIllustrationPng from '@/assets/illustrations/contact-illustration.png'
 
-import HomeHeroPng1 from '@/assets/temp/home-hero-1.png'
-import HomeHeroPng2 from '@/assets/temp/home-hero-2.png'
-import HomeHeroPng3 from '@/assets/temp/home-hero-3.png'
+// Vectors
+import WelcomeOnboardSvg from '@/assets/vector/WelcomeOnboard.svg'
+import HomeHederDashedPath from '@/assets/vector/hero-path.svg'
+import DotsPng from '@/assets/vector/dots.svg'
 
 import TestimonialImage1 from '@/assets/testimonials/1.png'
 import TestimonialImage2 from '@/assets/testimonials/2.png'
@@ -22,6 +28,10 @@ import TestimonialImage3 from '@/assets/testimonials/3.png'
 import TestimonialImage4 from '@/assets/testimonials/4.png'
 import TestimonialImage5 from '@/assets/testimonials/5.png'
 import TestimonialImage6 from '@/assets/testimonials/6.png'
+
+import HomeHeroPng1 from '@/assets/temp/home-hero-1.png'
+import HomeHeroPng2 from '@/assets/temp/home-hero-2.png'
+import HomeHeroPng3 from '@/assets/temp/home-hero-3.png'
 
 export default function Home() {
   let opt = {
@@ -36,7 +46,7 @@ export default function Home() {
   function generatePDF() {
     // Choose the element that your content will be rendered to.
     const element = document.getElementById('vacationum-pdf-container')
-    if (!element) return
+    if (!element) return alert('Something went wrong!')
 
     // Choose the element and save the PDF for your user.
     html2pdf().set(opt).from(element).save()
@@ -291,7 +301,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Home Page Header */}
+          {/* Home Page Footer */}
           <footer className="page-footer">Welcome to Vacationum</footer>
 
           <div className="top-right-dots">
@@ -301,6 +311,7 @@ export default function Home() {
 
         {/* Service Page */}
         <div className="page service-page">
+          {/* Service Page Header */}
           <header className="page-header">
             <div className="logo-wrapper">
               <Image src={logo} alt="" />
@@ -319,6 +330,7 @@ export default function Home() {
             <Image className="path" src={HomeHederDashedPath} alt="" />
           </header>
 
+          {/* Service Page Body */}
           <section className="page-body">
             {/* Flights */}
             <div className="service-card">
@@ -453,21 +465,20 @@ export default function Home() {
                 </svg>
               </span>
             </div>
-
-            {/* <div className="side-dashed-line">
-              <svg
-                width="2"
-                height="387"
-                viewBox="0 0 4 387"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M2 0V3860" stroke="#797878" stroke-width="1" stroke-dasharray="10 10" />
-              </svg>
-            </div> */}
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          {/* Service Page Footer */}
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
 
           <div className="top-right-dots">
             <Image src={DotsPng} />
@@ -476,6 +487,7 @@ export default function Home() {
 
         {/* Itinerary Page */}
         <div className="page itinerary-page">
+          {/* Itinerary Page header */}
           <header className="page-header">
             <div className="logo-wrapper">
               <Image src={logo} alt="" />
@@ -488,12 +500,13 @@ export default function Home() {
               </div>
 
               <div className="hero-right">
-                <Image src={ServicePageIllustration} alt="" />
+                <Image src={ItineraryPageIllustration} alt="" />
               </div>
               <Image className="path" src={HomeHederDashedPath} alt="" />
             </section>
           </header>
 
+          {/* Itinerary Page Body */}
           <section className="page-body">
             <div className="itinerary-day-description">
               <h3>
@@ -566,7 +579,18 @@ export default function Home() {
             </div>
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          {/* Itinerary Page Footer */}
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
 
           <div className="top-right-dots">
             <Image src={DotsPng} />
@@ -688,7 +712,17 @@ export default function Home() {
             </div>
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
 
           <div className="top-right-dots">
             <Image src={DotsPng} />
@@ -697,6 +731,7 @@ export default function Home() {
 
         {/* Information Page */}
         <div className="page info-page">
+          {/* Information Page Header */}
           <header className="page-header">
             <div className="logo-wrapper">
               <Image src={logo} alt="" />
@@ -709,12 +744,14 @@ export default function Home() {
               </div>
 
               <div className="hero-right">
-                <Image src={ServicePageIllustration} alt="" />
+                <Image src={InfoPageIllustration} alt="" />
               </div>
             </section>
           </header>
 
+          {/* Information Page Body */}
           <section className="page-body">
+            {/* Passenger Details */}
             <div className="section">
               <h5>Lead Passenger Name:</h5>
               <p>- Mrs Vartika Tyagi</p>
@@ -854,7 +891,18 @@ export default function Home() {
             </div>
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          {/* Information Page Footer */}
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
 
           <div className="top-right-dots">
             <Image src={DotsPng} />
@@ -1010,11 +1058,122 @@ export default function Home() {
             </div>
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
+        </div>
+
+        {/* Information Page 03 */}
+        <div className="page info-page other-info">
+          <header className="page-header">
+            <div className="logo-wrapper">
+              <Image src={logo} alt="" />
+            </div>
+          </header>
+
+          <section className="page-body">
+            {/* Payment Information Table */}
+            <div className="section">
+              <h5>Payment Information:</h5>
+
+              <table>
+                <tr>
+                  <td>Account Holder Name</td>
+                  <td>Vacationum Trip Planners Private Limited</td>
+                </tr>
+                <tr>
+                  <td>Account Number</td>
+                  <td>695505601494</td>
+                </tr>
+                <tr>
+                  <td>Account Type</td>
+                  <td>Current Account</td>
+                </tr>
+                <tr>
+                  <td>Bank</td>
+                  <td>ICICI</td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>C 6, Lohia Nagar, Ghaziabad 201001, Uttar Pradesh</td>
+                </tr>
+                <tr>
+                  <td>IFSC Code</td>
+                  <td>ICIC0006955</td>
+                </tr>
+                <tr>
+                  <td>UPI ID</td>
+                  <td>vacationumtripplanerspltd@icici</td>
+                </tr>
+              </table>
+
+              <svg
+                className="section-dot"
+                width="30"
+                height="30"
+                viewBox="0 0 68 68"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="33.9355"
+                  cy="33.853"
+                  r="31"
+                  stroke="#797878"
+                  stroke-width="5"
+                  stroke-dasharray="16 16"
+                />
+                <circle cx="34.4355" cy="34.353" r="10" fill="#E46F44" />
+              </svg>
+            </div>
+
+            {/* Scan and Pay  */}
+            <div className="section">
+              <h5>Scan and Pay :</h5>
+              <Image src={qrCodePng} alt="" />
+            </div>
+
+            {/* Note  */}
+            <div className="section">
+              <h5>Note :</h5>
+              <ul>
+                <li>
+                  For payment made through bank transfer, please give us at least 30 minutes so we
+                  can confirm payment with the bank.
+                </li>
+                <li>
+                  For UPI transactions, please share the screenshot of the payment for instant
+                  confirmation.
+                </li>
+                <li>For any questions regarding alternate payment methods, please contact us.</li>
+              </ul>
+            </div>
+          </section>
+
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
         </div>
 
         {/* Testimonial Page */}
         <div className="page testimonial-page">
+          {/* Testimonial Page Header */}
           <header className="page-header">
             <div className="logo-wrapper">
               <Image src={logo} alt="" />
@@ -1027,20 +1186,25 @@ export default function Home() {
               </div>
 
               <div className="hero-right">
-                <Image src={ServicePageIllustration} alt="" />
+                <Image src={TestimonialPageIllustration} alt="" />
               </div>
             </section>
           </header>
 
+          {/* Testimonial Page Body */}
           <section className="page-body">
-            <p>
-              Choose Vacationum for unparalleled convenience, savings, and a seamless travel
-              experience. We provide the best deals on hotels, flights, cruises, and packages,
-              tailored to your preferences. With our dedicated team's personalized recommendations,
-              your journey becomes an unforgettable adventure.
-            </p>
-            <p className="highlight">Vacationum: Where travel dreams come true.</p>
+            {/* Why Choose Us Text */}
+            <div>
+              <p>
+                Choose Vacationum for unparalleled convenience, savings, and a seamless travel
+                experience. We provide the best deals on hotels, flights, cruises, and packages,
+                tailored to your preferences. With our dedicated team's personalized
+                recommendations, your journey becomes an unforgettable adventure.
+              </p>
+              <p className="highlight">Vacationum: Where travel dreams come true.</p>
+            </div>
 
+            {/* Testimonials Images */}
             <h4 className="sub-heading">
               <svg
                 className="section-dot"
@@ -1070,9 +1234,26 @@ export default function Home() {
               <Image src={TestimonialImage5} />
               <Image src={TestimonialImage6} />
             </div>
+
+            {/* Certifications Images */}
+            <div className="certifications">
+              <Image src={IataPng} alt="" />
+              <Image src={ArcPng} alt="" />
+            </div>
           </section>
 
-          <footer className="page-footer">Welcome to Vacationum</footer>
+          {/* Testimonial Page Footer*/}
+          <footer className="page-footer">
+            <a target="_blank" href="tel:9871190075">
+              Phone: 9871190075
+            </a>
+            <a target="_blank" href="mailto:query@vacationum.com">
+              Email: query@vacationum.com
+            </a>
+            <a target="_blank" href="https://www.vacationum.com/">
+              Web: www.vacationum.com
+            </a>
+          </footer>
 
           <div className="top-right-dots">
             <Image src={DotsPng} />

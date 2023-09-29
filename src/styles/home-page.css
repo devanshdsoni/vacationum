@@ -8,7 +8,6 @@
 }
 .home-page .page-header .logo-wrapper {
   padding: 20px 30px;
-  /* margin-bottom: 2rem; */
 }
 .home-page .page-header .logo-wrapper img {
   width: 15rem;
@@ -28,12 +27,7 @@
   place-content: flex-start;
   place-items: center;
 
-  /* outline: 3px solid red; */
-
   height: 21rem;
-  /* padding: 0 3rem; */
-  /* padding-top: 2rem; */
-  /* padding-bottom: 8rem; */
 }
 .home-page .hero-left {
   padding-top: 1rem;
@@ -45,8 +39,7 @@
 }
 .home-page .hero-left .heading {
   color: #ffffff;
-  /* text-align: right; */
-  /* font-family: Poppins; */
+
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
@@ -61,11 +54,6 @@
 }
 .home-page .hero-right {
   height: 100%;
-  /* background-image: url(../assets/hero-image-bg.png); */
-  /* background-size: 100%; */
-  /* background-position: center; */
-
-  /* outline: 2px solid rgb(0, 213, 255); */
 }
 .home-page .hero-right .images-container {
   display: flex;
@@ -91,7 +79,6 @@
   z-index: 2;
 }
 .home-page .hero-right .image-wrapper:nth-child(2) {
-  /* transform-origin: right; */
   transform: translateY(-1.5rem);
   z-index: 1;
 }
@@ -114,7 +101,7 @@
 }
 .home-page .page-body .sub-heading h3 {
   color: #363636;
-  /* font-family: Poppins; */
+
   font-size: 1.7rem;
   font-style: normal;
   font-weight: 500;
@@ -142,7 +129,6 @@
   gap: 3rem;
   grid-template-columns: 1fr 1fr;
   justify-items: end;
-  /* background-color: rgb(0, 255, 255); */
 }
 .home-page .page-body .offer-section .illustration {
   width: 100%;
@@ -197,7 +183,6 @@
   gap: 3rem;
   grid-template-columns: 1.3fr 1fr;
   justify-items: end;
-  /* background-color: rgb(0, 255, 255); */
 }
 .home-page .page-body .contact-section .illustration {
   width: 100%;
@@ -228,7 +213,6 @@
   border-radius: 0.25rem;
   background: #1296e1;
 
-  /* width: 16rem; */
   color: #fff;
   font-size: 1.1rem;
   font-style: normal;
