@@ -10,8 +10,8 @@
   padding: 20px 30px;
 }
 .home-page .page-header .logo-wrapper img {
-  width: 15rem;
-  height: max-content;
+  width: auto;
+  height: 3rem;
 }
 .home-page .page-header .dashed-path {
   position: absolute;

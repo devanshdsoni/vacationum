@@ -11,8 +11,8 @@
   padding: 10px 30px;
 }
 .service-page .page-header .logo-wrapper img {
-  width: 15rem;
-  height: max-content;
+  width: auto;
+  height: 3rem;
 }
 .service-page .page-header .path {
   position: absolute;

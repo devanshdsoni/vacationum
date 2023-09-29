@@ -11,8 +11,8 @@
   padding: 10px 30px;
 }
 .testimonial-page .page-header .logo-wrapper img {
-  width: 15rem;
-  height: max-content;
+  width: auto;
+  height: 3rem;
 }
 
 .testimonial-page .hero {
@@ -44,7 +44,7 @@
   color: #fff847;
 }
 .testimonial-page .hero-right img {
-  width: 16rem;
+  width: 12rem;
   height: auto;
 }
 
