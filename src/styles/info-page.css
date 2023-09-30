@@ -1,33 +1,33 @@
 /* Information Page */
 
-.info-page .page-header {
+#vacationum-pdf-container .info-page .page-header {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center -60px;
 }
-.info-page .page-header .logo-wrapper {
+#vacationum-pdf-container .info-page .page-header .logo-wrapper {
   padding: 10px 30px;
 }
-.info-page .page-header .logo-wrapper img {
+#vacationum-pdf-container .info-page .page-header .logo-wrapper img {
   width: auto;
   height: 3rem;
 }
 
-.info-page .hero {
+#vacationum-pdf-container .info-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
   place-items: center;
   height: 19rem;
 }
-.info-page .hero-left {
+#vacationum-pdf-container .info-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
 }
-.info-page .hero-left .heading {
+#vacationum-pdf-container .info-page .hero-left .heading {
   color: #ffffff;
   font-size: 2rem;
   font-style: normal;
@@ -38,41 +38,41 @@
   max-width: 16rem;
   text-align: center;
 }
-.info-page .hero-left .heading span {
+#vacationum-pdf-container .info-page .hero-left .heading span {
   color: #fff847;
 }
-.info-page .hero-right img {
+#vacationum-pdf-container .info-page .hero-right img {
   width: auto;
   height: 14rem;
 }
 
-.info-page .page-body {
+#vacationum-pdf-container .info-page .page-body {
   padding: 0 2rem;
 }
-.info-page.other-info .page-body {
+#vacationum-pdf-container .info-page.other-info .page-body {
   margin-top: 2rem;
 }
 
-.info-page .page-body .section {
+#vacationum-pdf-container .info-page .page-body .section {
   position: relative;
   padding: 0 1.8rem;
 
   margin-bottom: 1rem;
 }
 
-.info-page .page-body .section > h5 {
+#vacationum-pdf-container .info-page .page-body .section > h5 {
   color: #363636;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
 }
-.info-page .page-body .section > p {
+#vacationum-pdf-container .info-page .page-body .section > p {
   margin-top: 4px;
   color: #363636;
   font-size: 0.9rem;
   font-style: normal;
 }
-.info-page .page-body .section > img {
+#vacationum-pdf-container .info-page .page-body .section > img {
   margin-top: 0.5rem;
   max-height: 12rem;
   width: auto;
@@ -80,42 +80,42 @@
   border-radius: 8px;
   border: 2px solid rgba(172, 172, 172, 0.4);
 }
-.info-page .page-body .section .section-dot {
+#vacationum-pdf-container .info-page .page-body .section .section-dot {
   position: absolute;
   width: 20px;
   height: 20px;
   top: 2px;
   left: 0;
 }
-.info-page .page-body .section table {
+#vacationum-pdf-container .info-page .page-body .section table {
   margin-top: 0.4rem;
   display: block;
   border: 1px solid rgba(130, 130, 130, 0.6);
 }
-.info-page .page-body .section table tr {
+#vacationum-pdf-container .info-page .page-body .section table tr {
   display: block;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-.info-page .page-body .section table tr:not(:last-child) {
+#vacationum-pdf-container .info-page .page-body .section table tr:not(:last-child) {
   border-bottom: 1px solid rgba(130, 130, 130, 0.6);
 }
-.info-page .page-body .section table tr td {
+#vacationum-pdf-container .info-page .page-body .section table tr td {
   padding: 0.4rem 0.8rem;
   font-size: 0.9rem;
 }
-.info-page .page-body .section table tr td:not(:last-child) {
+#vacationum-pdf-container .info-page .page-body .section table tr td:not(:last-child) {
   border-right: 1px solid rgba(130, 130, 130, 0.6);
   font-weight: 500;
 }
-.info-page .page-body .section .info {
+#vacationum-pdf-container .info-page .page-body .section .info {
   margin-top: 8px;
   color: #404040;
   font-size: 0.8rem;
   font-style: normal;
 }
 
-.info-page .page-body .section ul {
+#vacationum-pdf-container .info-page .page-body .section ul {
   margin-top: 8px;
   color: #404040;
   font-size: 0.9rem;
@@ -125,7 +125,7 @@
   line-height: 1.5rem;
 }
 
-.page-footer {
+#vacationum-pdf-container .info-page .page-footer {
   background: #1a385a;
   position: absolute;
   bottom: 0;
@@ -144,12 +144,12 @@
   font-weight: 400;
 }
 
-.page .top-right-dots {
+#vacationum-pdf-container .info-page .top-right-dots {
   position: absolute;
   right: -0.5rem;
   top: -0.5rem;
 }
-.page .top-right-dots img {
+#vacationum-pdf-container .info-page .top-right-dots img {
   width: 5rem;
   height: 5rem;
   opacity: 40%;

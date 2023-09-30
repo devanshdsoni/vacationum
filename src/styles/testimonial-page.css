@@ -1,21 +1,21 @@
 /* Testimonial Page */
 
-.testimonial-page .page-header {
+#vacationum-pdf-container .testimonial-page .page-header {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center -100px;
   position: relative;
 }
-.testimonial-page .page-header .logo-wrapper {
+#vacationum-pdf-container .testimonial-page .page-header .logo-wrapper {
   padding: 10px 30px;
 }
-.testimonial-page .page-header .logo-wrapper img {
+#vacationum-pdf-container .testimonial-page .page-header .logo-wrapper img {
   width: auto;
   height: 3rem;
 }
 
-.testimonial-page .hero {
+#vacationum-pdf-container .testimonial-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
@@ -23,13 +23,13 @@
 
   height: 16rem;
 }
-.testimonial-page .hero-left {
+#vacationum-pdf-container .testimonial-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
 }
-.testimonial-page .hero-left .heading {
+#vacationum-pdf-container .testimonial-page .hero-left .heading {
   color: #ffffff;
   font-size: 2rem;
   font-style: normal;
@@ -40,31 +40,31 @@
   max-width: 16rem;
   text-align: center;
 }
-.testimonial-page .hero-left .heading span {
+#vacationum-pdf-container .testimonial-page .hero-left .heading span {
   color: #fff847;
 }
-.testimonial-page .hero-right img {
+#vacationum-pdf-container .testimonial-page .hero-right img {
   width: 12rem;
   height: auto;
 }
 
-.testimonial-page .page-body {
+#vacationum-pdf-container .testimonial-page .page-body {
   padding: 0 3rem;
   margin-top: 1rem;
 }
 
-.testimonial-page .page-body p {
+#vacationum-pdf-container .testimonial-page .page-body p {
   color: #363636;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
 }
-.testimonial-page .page-body p.highlight {
+#vacationum-pdf-container .testimonial-page .page-body p.highlight {
   font-size: 0.95rem;
   margin-top: 0.5rem;
 }
 
-.testimonial-page .page-body .sub-heading {
+#vacationum-pdf-container .testimonial-page .page-body .sub-heading {
   margin-top: 1.5rem;
 
   display: flex;
@@ -76,19 +76,19 @@
   font-style: normal;
   font-weight: 600;
 }
-.testimonial-page .page-body .sub-heading svg {
+#vacationum-pdf-container .testimonial-page .page-body .sub-heading svg {
   width: 1rem;
   height: auto;
 }
 
-.testimonial-page .page-body .image-container {
+#vacationum-pdf-container .testimonial-page .page-body .image-container {
   margin-top: 1rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.8rem;
 }
-.testimonial-page .page-body .image-container img {
+#vacationum-pdf-container .testimonial-page .page-body .image-container img {
   max-width: 100%;
   width: auto;
   height: 8rem;
@@ -96,19 +96,19 @@
   border: 1px solid rgba(172, 172, 172, 0.4);
   border-radius: 0.5rem;
 }
-.testimonial-page .page-body .certifications {
+#vacationum-pdf-container .testimonial-page .page-body .certifications {
   margin-top: 3rem;
 
   display: flex;
   gap: 1rem;
 }
-.testimonial-page .page-body .certifications img {
+#vacationum-pdf-container .testimonial-page .page-body .certifications img {
   height: 5rem;
   width: auto;
   border-radius: 2px;
 }
 
-.page-footer {
+#vacationum-pdf-container .testimonial-page .page-footer {
   background: #1a385a;
   position: absolute;
   bottom: 0;
@@ -127,12 +127,12 @@
   font-weight: 400;
 }
 
-.page .top-right-dots {
+#vacationum-pdf-container .testimonial-page .top-right-dots {
   position: absolute;
   right: -0.5rem;
   top: -0.5rem;
 }
-.page .top-right-dots img {
+#vacationum-pdf-container .testimonial-page .top-right-dots img {
   width: 5rem;
   height: 5rem;
   opacity: 40%;

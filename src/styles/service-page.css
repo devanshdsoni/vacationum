@@ -1,20 +1,20 @@
 /* Service Page */
 
-.service-page .page-header {
+#vacationum-pdf-container .service-page .page-header {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center -50px;
   position: relative;
 }
-.service-page .page-header .logo-wrapper {
+#vacationum-pdf-container .service-page .page-header .logo-wrapper {
   padding: 10px 30px;
 }
-.service-page .page-header .logo-wrapper img {
+#vacationum-pdf-container .service-page .page-header .logo-wrapper img {
   width: auto;
   height: 3rem;
 }
-.service-page .page-header .path {
+#vacationum-pdf-container .service-page .page-header .path {
   position: absolute;
   bottom: -1.5rem;
   left: 4rem;
@@ -22,7 +22,7 @@
   height: auto;
 }
 
-.service-page .hero {
+#vacationum-pdf-container .service-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
@@ -30,13 +30,13 @@
 
   height: 20rem;
 }
-.service-page .hero-left {
+#vacationum-pdf-container .service-page .hero-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
 }
-.service-page .hero-left .heading {
+#vacationum-pdf-container .service-page .hero-left .heading {
   color: #ffffff;
 
   font-size: 2rem;
@@ -48,42 +48,42 @@
   max-width: 16rem;
   text-align: center;
 }
-.service-page .hero-left .heading span {
+#vacationum-pdf-container .service-page .hero-left .heading span {
   color: #fff847;
 }
-.service-page .hero-right img {
+#vacationum-pdf-container .service-page .hero-right img {
   width: 20rem;
   height: auto;
 }
 
-.service-page .page-body {
+#vacationum-pdf-container .service-page .page-body {
   padding: 0 3.5rem;
   position: relative;
 }
 
-.service-page .page-body .sub-heading {
+#vacationum-pdf-container .service-page .page-body .sub-heading {
   margin-top: 1.5rem;
 
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.service-page .page-body .sub-heading h3 {
+#vacationum-pdf-container .service-page .page-body .sub-heading h3 {
   color: #363636;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-.service-page .page-body .sub-heading h3 span {
+#vacationum-pdf-container .service-page .page-body .sub-heading h3 span {
   color: #e46f44;
 }
-.service-page .page-body .sub-heading svg {
+#vacationum-pdf-container .service-page .page-body .sub-heading svg {
   width: 24px;
   height: 24px;
 }
 
-.service-page .page-body .service-card {
+#vacationum-pdf-container .service-page .page-body .service-card {
   margin-top: 1.5rem;
   position: relative;
 
@@ -92,13 +92,13 @@
   background: #ebf5f9;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.23);
 }
-.service-page .page-body .service-card h5 {
+#vacationum-pdf-container .service-page .page-body .service-card h5 {
   color: #363636;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
 }
-.service-page .page-body .service-card p {
+#vacationum-pdf-container .service-page .page-body .service-card p {
   margin-top: 8px;
 
   color: #363636;
@@ -106,7 +106,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.service-page .page-body .service-card span {
+#vacationum-pdf-container .service-page .page-body .service-card span {
   width: 50px;
   aspect-ratio: 1/1;
 
@@ -114,12 +114,12 @@
   top: -0.5rem;
   left: -1rem;
 }
-.service-page .page-body .service-card span svg {
+#vacationum-pdf-container .service-page .page-body .service-card span svg {
   width: 100%;
   height: 100%;
 }
 
-.service-page .page-body .side-dashed-line {
+#vacationum-pdf-container .service-page .page-body .side-dashed-line {
   position: absolute;
   top: 0;
   left: 2rem;
@@ -128,7 +128,7 @@
   z-index: 1;
 }
 
-.page-footer {
+#vacationum-pdf-container .service-page .page-footer {
   background: #1a385a;
   position: absolute;
   bottom: 0;
@@ -147,12 +147,12 @@
   font-weight: 400;
 }
 
-.page .top-right-dots {
+#vacationum-pdf-container .service-page .top-right-dots {
   position: absolute;
   right: -0.5rem;
   top: -0.5rem;
 }
-.page .top-right-dots img {
+#vacationum-pdf-container .service-page .top-right-dots img {
   width: 5rem;
   height: 5rem;
   opacity: 40%;

@@ -1,19 +1,19 @@
 /* Home Page */
 
-.home-page .page-header {
+#vacationum-pdf-container .home-page .page-header {
   position: relative;
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.home-page .page-header .logo-wrapper {
+#vacationum-pdf-container .home-page .page-header .logo-wrapper {
   padding: 20px 30px;
 }
-.home-page .page-header .logo-wrapper img {
+#vacationum-pdf-container .home-page .page-header .logo-wrapper img {
   width: auto;
   height: 3rem;
 }
-.home-page .page-header .dashed-path {
+#vacationum-pdf-container .home-page .page-header .dashed-path {
   position: absolute;
   bottom: -3rem;
   left: 5.7rem;
@@ -21,7 +21,7 @@
   height: auto;
 }
 
-.home-page .hero {
+#vacationum-pdf-container .home-page .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: flex-start;
@@ -29,7 +29,7 @@
 
   height: 21rem;
 }
-.home-page .hero-left {
+#vacationum-pdf-container .home-page .hero-left {
   padding-top: 1rem;
 
   display: flex;
@@ -37,7 +37,7 @@
   align-items: center;
   gap: 0.4rem;
 }
-.home-page .hero-left .heading {
+#vacationum-pdf-container .home-page .hero-left .heading {
   color: #ffffff;
 
   font-size: 2rem;
@@ -49,49 +49,49 @@
   max-width: 20rem;
   text-align: center;
 }
-.home-page .hero-left .heading span {
+#vacationum-pdf-container .home-page .hero-left .heading span {
   color: #fff847;
 }
-.home-page .hero-right {
+#vacationum-pdf-container .home-page .hero-right {
   height: 100%;
 }
-.home-page .hero-right .images-container {
+#vacationum-pdf-container .home-page .hero-right .images-container {
   display: flex;
   align-items: center;
   position: relative;
   top: 2rem;
 }
-.home-page .hero-right .image-wrapper {
+#vacationum-pdf-container .home-page .hero-right .image-wrapper {
   padding-top: 4px;
   padding-bottom: 8px;
   border-radius: 0.3rem;
   background: #efeee7;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
-.home-page .hero-right .image-wrapper img {
+#vacationum-pdf-container .home-page .hero-right .image-wrapper img {
   width: 110px;
   height: 135px;
   object-fit: cover;
 }
-.home-page .hero-right .image-wrapper:nth-child(1) {
+#vacationum-pdf-container .home-page .hero-right .image-wrapper:nth-child(1) {
   transform-origin: right;
   transform: rotate(-33deg) translateY(1.5rem);
   z-index: 2;
 }
-.home-page .hero-right .image-wrapper:nth-child(2) {
+#vacationum-pdf-container .home-page .hero-right .image-wrapper:nth-child(2) {
   transform: translateY(-1.5rem);
   z-index: 1;
 }
-.home-page .hero-right .image-wrapper:nth-child(3) {
+#vacationum-pdf-container .home-page .hero-right .image-wrapper:nth-child(3) {
   transform-origin: left;
   transform: rotate(33deg) translateY(1.5rem);
   z-index: 2;
 }
 
-.home-page .page-body {
+#vacationum-pdf-container .home-page .page-body {
   padding: 0 5rem;
 }
-.home-page .page-body .sub-heading {
+#vacationum-pdf-container .home-page .page-body .sub-heading {
   margin-top: 2.5rem;
   position: relative;
 
@@ -99,7 +99,7 @@
   align-items: center;
   gap: 1rem;
 }
-.home-page .page-body .sub-heading h3 {
+#vacationum-pdf-container .home-page .page-body .sub-heading h3 {
   color: #363636;
 
   font-size: 1.7rem;
@@ -107,14 +107,14 @@
   font-weight: 500;
   line-height: normal;
 }
-.home-page .page-body .sub-heading h3 span {
+#vacationum-pdf-container .home-page .page-body .sub-heading h3 span {
   color: #e46f44;
 }
-.home-page .page-body .sub-heading .dashed-circle {
+#vacationum-pdf-container .home-page .page-body .sub-heading .dashed-circle {
   width: 24px;
   height: 24px;
 }
-.home-page .page-body .sub-heading .bottom-dashed-line {
+#vacationum-pdf-container .home-page .page-body .sub-heading .bottom-dashed-line {
   position: absolute;
   height: 4.5rem;
   width: auto;
@@ -124,23 +124,23 @@
 }
 
 /* Offers Section */
-.home-page .page-body .offer-section {
+#vacationum-pdf-container .home-page .page-body .offer-section {
   display: grid;
   gap: 3rem;
   grid-template-columns: 1fr 1fr;
   justify-items: end;
 }
-.home-page .page-body .offer-section .illustration {
+#vacationum-pdf-container .home-page .page-body .offer-section .illustration {
   width: 100%;
   height: auto;
 }
-.home-page .page-body .offer-section .offer-chip-container {
+#vacationum-pdf-container .home-page .page-body .offer-section .offer-chip-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem 0;
 }
-.home-page .page-body .offer-section .offer-chip {
+#vacationum-pdf-container .home-page .page-body .offer-section .offer-chip {
   position: relative;
 
   padding: 0.25rem 0;
@@ -154,7 +154,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.home-page .page-body .offer-section .offer-chip span {
+#vacationum-pdf-container .home-page .page-body .offer-section .offer-chip span {
   padding: 15px;
 
   position: absolute;
@@ -170,13 +170,13 @@
   justify-content: center;
   align-items: center;
 }
-.home-page .page-body .offer-section .offer-chip span svg {
+#vacationum-pdf-container .home-page .page-body .offer-section .offer-chip span svg {
   width: 100%;
   height: 100%;
 }
 
 /* Contact Section */
-.home-page .page-body .contact-section {
+#vacationum-pdf-container .home-page .page-body .contact-section {
   margin-top: 0.5rem;
 
   display: grid;
@@ -184,27 +184,27 @@
   grid-template-columns: 1.3fr 1fr;
   justify-items: end;
 }
-.home-page .page-body .contact-section .illustration {
+#vacationum-pdf-container .home-page .page-body .contact-section .illustration {
   width: 100%;
   height: auto;
 }
-.home-page .page-body .contact-section .contact-details {
+#vacationum-pdf-container .home-page .page-body .contact-section .contact-details {
   padding: 1rem 0;
 }
-.home-page .page-body .contact-section .contact-details > h3 {
+#vacationum-pdf-container .home-page .page-body .contact-section .contact-details > h3 {
   color: #363636;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
 }
-.home-page .page-body .contact-section .contact-details > p {
+#vacationum-pdf-container .home-page .page-body .contact-section .contact-details > p {
   color: #363636;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
-.home-page .page-body .contact-details .contact-chip {
+#vacationum-pdf-container .home-page .page-body .contact-details .contact-chip {
   position: relative;
   margin-bottom: 1.8rem;
 
@@ -218,7 +218,7 @@
   font-style: normal;
   font-weight: 500;
 }
-.home-page .page-body .contact-details .contact-chip span {
+#vacationum-pdf-container .home-page .page-body .contact-details .contact-chip span {
   padding: 14px;
 
   position: absolute;
@@ -234,12 +234,12 @@
   justify-content: center;
   align-items: center;
 }
-.home-page .page-body .contact-details .contact-chip span svg {
+#vacationum-pdf-container .home-page .page-body .contact-details .contact-chip span svg {
   width: 100%;
   height: 100%;
 }
 
-.home-page .page-footer {
+#vacationum-pdf-container .home-page .page-footer {
   background: #1a385a;
   position: absolute;
   bottom: 0;
@@ -254,12 +254,12 @@
   font-weight: 400;
 }
 
-.page .top-right-dots {
+#vacationum-pdf-container .home-page .top-right-dots {
   position: absolute;
   right: -0.5rem;
   top: -0.5rem;
 }
-.page .top-right-dots img {
+#vacationum-pdf-container .home-page .top-right-dots img {
   width: 5rem;
   height: 5rem;
   opacity: 40%;
