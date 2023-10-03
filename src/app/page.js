@@ -1084,7 +1084,7 @@ export default function Home() {
             <div className="section">
               <h5>Payment Information:</h5>
 
-              <table>
+              <table className="payment-info-table">
                 <tr>
                   <td>Account Holder Name</td>
                   <td>Vacationum Trip Planners Private Limited</td>

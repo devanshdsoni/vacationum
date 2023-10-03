@@ -108,6 +108,19 @@
   border-right: 1px solid rgba(130, 130, 130, 0.6);
   font-weight: 500;
 }
+
+#vacationum-pdf-container .info-page .page-body table.payment-info-table {
+  color: white;
+  background-color: #eb7b2f;
+  border: 1px solid rgba(226, 226, 226, 0.5);
+}
+#vacationum-pdf-container .info-page .page-body table.payment-info-table tr td:not(:last-child) {
+  border-right: 1px solid rgba(226, 226, 226, 0.5);
+}
+#vacationum-pdf-container .info-page .page-body table.payment-info-table tr:not(:last-child) {
+  border-bottom: 1px solid rgba(226, 226, 226, 0.5);
+}
+
 #vacationum-pdf-container .info-page .page-body .section .info {
   margin-top: 8px;
   color: #404040;
